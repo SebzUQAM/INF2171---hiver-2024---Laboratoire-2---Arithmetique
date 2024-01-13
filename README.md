@@ -14,6 +14,7 @@ Additionner 0b10110101 et 0b01100011 (sans les convertir en décimal)
 Convertir ces deux nombres et votre résultat en décimal pour vérifier
 
 |0b|128|0|32|16|0|4|0|1|Total|181|
+|--|---|-|--|--|-|-|-|-|-----|---|
 |  |  1|0| 1| 1|0|1|0|1|     |   |
 
 |0b|0|64|32|0|0|0|2|1|Total|99|
