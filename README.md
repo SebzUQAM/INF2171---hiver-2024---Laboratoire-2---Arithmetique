@@ -24,6 +24,12 @@ Convertir ces deux nombres et votre résultat en décimal pour vérifier
 |0b|256|0|0|0|16|8|0|0|0|Total|280|
 |  |  1|0|0|0| 1|1|0|0|0|     |   |
 
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
 Exercice 2
 Additionner 0x12C4 et 0x89A
 Convertir ces deux nombres et votre résultat en décimal pour vérifier
