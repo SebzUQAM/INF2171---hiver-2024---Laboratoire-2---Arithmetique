@@ -3,7 +3,7 @@
 ## Arithmétique sur papier
 
 ### Exercice 1
-> Additionner 0b10110101 et 0b01100011 (sans les convertir en décimal)
+> **Additionner 0b10110101 et 0b01100011 (sans les convertir en décimal)**
 > 
 > |``   11001110``|retenue |
 > |--------------:|--------|
@@ -11,7 +11,7 @@
 > |`` 0b01100011``|        |
 > |``0b100011000``|résultat|
 > 
-> Convertir ces deux nombres et votre résultat en décimal pour vérifier
+> **Convertir ces deux nombres et votre résultat en décimal pour vérifier**
 > 
 > |  |128|0|32|16|0|4|0|1|Total|181|
 > |--|---|-|--|--|-|-|-|-|-----|---|
@@ -27,9 +27,21 @@
 > |--|---|-|-|-|--|-|-|-|-|-----|---|
 > |0b|  1|0|0|0| 1|1|0|0|0|     |   |
 
-Exercice 2
-Additionner 0x12C4 et 0x89A
-Convertir ces deux nombres et votre résultat en décimal pour vérifier
+###Exercice 2
+> **Additionner 0x12C4 et 0x89A**
+>
+> |``  0100``|retenue |
+> |---------:|--------|
+> |``0x12C4``|+       |
+> |`` 0x89A``|        |
+> |``0x1B5E``|résultat|
+>
+> **Convertir ces deux nombres et votre résultat en décimal pour vérifier**
+>
+> |0x|     1|     2|      C|     4|     |    |
+> |--|------|------|-------|------|-----|----|
+> |0x|1*16^3|2*16^2|12*16^1|4*16^0|     |    |
+> |0x|  4096|   512|    192|     4|Total|4804|
 
 Exercice 3
 Convertissez 589 en binaire puis en hexadécimal
