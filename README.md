@@ -5,11 +5,11 @@ Arithmétique sur papier
 Exercice 1
 Additionner 0b10110101 et 0b01100011 (sans les convertir en décimal)
 
-|   11001110|retenue |
-|----------:|--------|
-| 0b10110101|+       |
-| 0b01100011|        |
-|0b100011000|résultat|
+|``   11001110``|retenue |
+|--------------:|--------|
+|`` 0b10110101``|+       |
+|`` 0b01100011``|        |
+|``0b100011000``|résultat|
 
 Convertir ces deux nombres et votre résultat en décimal pour vérifier
 
