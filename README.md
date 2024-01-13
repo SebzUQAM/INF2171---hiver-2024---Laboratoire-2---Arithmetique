@@ -18,18 +18,14 @@ Convertir ces deux nombres et votre résultat en décimal pour vérifier
 |  |  1|0| 1| 1|0|1|0|1|     |   |
 
 |0b|0|64|32|0|0|0|2|1|Total|99|
+|--|-|--|--|-|-|-|-|-|-----|--|
 |  |0| 1| 1|0|0|0|1|1|     |  |
 
 181+99=280
 
 |0b|256|0|0|0|16|8|0|0|0|Total|280|
+|--|---|-|-|-|--|-|-|-|-|-----|---|
 |  |  1|0|0|0| 1|1|0|0|0|     |   |
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
 
 Exercice 2
 Additionner 0x12C4 et 0x89A
