@@ -1,8 +1,8 @@
 # INF2171---hiver-2024---Laboratoire-2---Arithmetique
 
-Arithmétique sur papier
+## Arithmétique sur papier
 
-Exercice 1
+### Exercice 1
 Additionner 0b10110101 et 0b01100011 (sans les convertir en décimal)
 
 |``   11001110``|retenue |
@@ -13,19 +13,19 @@ Additionner 0b10110101 et 0b01100011 (sans les convertir en décimal)
 
 Convertir ces deux nombres et votre résultat en décimal pour vérifier
 
-|0b|128|0|32|16|0|4|0|1|Total|181|
+|  |128|0|32|16|0|4|0|1|Total|181|
 |--|---|-|--|--|-|-|-|-|-----|---|
-|  |  1|0| 1| 1|0|1|0|1|     |   |
+|0b|  1|0| 1| 1|0|1|0|1|     |   |
 
-|0b|0|64|32|0|0|0|2|1|Total|99|
+|  |0|64|32|0|0|0|2|1|Total|99|
 |--|-|--|--|-|-|-|-|-|-----|--|
-|  |0| 1| 1|0|0|0|1|1|     |  |
+|0b|0| 1| 1|0|0|0|1|1|     |  |
 
 181+99=280
 
-|0b|256|0|0|0|16|8|0|0|0|Total|280|
+|  |256|0|0|0|16|8|0|0|0|Total|280|
 |--|---|-|-|-|--|-|-|-|-|-----|---|
-|  |  1|0|0|0| 1|1|0|0|0|     |   |
+|0b|  1|0|0|0| 1|1|0|0|0|     |   |
 
 Exercice 2
 Additionner 0x12C4 et 0x89A
