@@ -26,7 +26,7 @@
     |  |256|0|0|0|16|8|0|0|0|Total|280|
     |--|---|-|-|-|--|-|-|-|-|-----|---|
     |0b|  1|0|0|0| 1|1|0|0|0|     |   |
-
+ 
 Exercice 2
 Additionner 0x12C4 et 0x89A
 Convertir ces deux nombres et votre résultat en décimal pour vérifier
