@@ -184,47 +184,34 @@
 >> 589/16 = 36.8125 -> R -> 0.8125*16 = 13 = 0xD  
 >> 36/16 = 2.25 -> R -> 0.25*16 = 4  
 >> 2/16 = 0.125 -> R -> 0.125*16 = 2  
->> Donc : 24D
+>> Donc : 0x24D
 
-Exercice 4
-En 8 bits signé (complément à deux), quelle est la représentation de 87? et de -87? (en binaire et en hexadécimal)
-Mêmes questions en 128 bits signé
+### Exercice 4
+> **En 8 bits signé (complément à deux), quelle est la représentation de 87? et de -87? (en binaire et en hexadécimal)**
+> 87/2 = 43.5 -> R -> 0.5*2 = 1  
+> 43/2 = 21.5 -> R -> 0.5*2 = 1
+> 21/2 = 10.5 -> R -> 0.5*2 = 1
+> 10/2 = 5.0 -> R -> 0.0*2 = 0
+> 5/2 = 2.5 -> R -> 0.5*2 = 1
+> 2/2 = 1.0 -> R -> 0.0*2 = 0
+> 1/2 = 0.5 -> R -> 0.5*2 = 1
+> Donc : 0b01010111 = 87
+> 0b0111 = 0x7
+> 0b0101 = 0x5
+> Donc : 0x57
+>
+> 0b11111111  
+> 0b01010111 -  
+> ---------------
+> 0b10101000
+> 0b00000001 +  
+> ---------------
+> 0b10101001 = -87
+> 0b1001 = 0x9
+> 0b1010 = 0xA
+> Donc : 0xA9
+> **Mêmes questions en 128 bits signé**
+> En 128 bits ?? C'est beaucoup trop de bits à écrire. Probablement une erreur !?
 
-Exercice 5
-Quels nombres 16 bits signés sont représentés par 0x4000 et 0xFADE?
-
-RARS
-Exercice 6
-Écrivez les instructions assembleur pour calculer:
-
-s3 = s0+s1
-s4 = s1-100+s0
-s5 = (s0-5)-(s1-3)
-s6 = s0*10. Contrainte: utiliser 4 add en tout (et pas d’autres instructions)
-Testez avec les valeurs initiales suivantes
-
-li s0, 11
-li s1, 13
-Vérifiez après exécution que les valeurs des registres soient bien:
-
-s0 = 11
-s1 = 13
-s3 = 24
-s4 = -76
-s5 = -4
-s6 = 110
-Note: exécutez votre programme pas à pas.
-
-Exercice 7
-li s7, 0x76543210
-À quelles instructions correspondent la pseudoinstruction li s7, 0x76543210.
-li: 12 bits signés, aui: 20 bits signés
-Vérifiez en assemblant et en regardant le code assemblé (onglet Execute).
-Exercice 8 (extra)
-add s8, s7 ,s7
-Note: assurez-vous que le mode 64 bits est désactivé dans Settings
-
-Est-ce que 0x76543210 + 0x76543210 déborde en 32 bits signé?
-Quelle est la représentation hexadécimale (32 bits non signée) de s8.
-Validez avec RARS s’il y a eu débordement, et sa valeur hexadécimale (option Settings>Values displayed in hexadecimal).
-Mêmes questions en 64 bits signé (activez le mode 64 bit dans Settings)
+### Exercice 5
+> **Quels nombres 16 bits signés sont représentés par 0x4000 et 0xFADE?**
