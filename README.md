@@ -187,7 +187,8 @@
 >> Donc : 0x24D
 
 ### Exercice 4
-> **En 8 bits signé (complément à deux), quelle est la représentation de 87? et de -87? (en binaire et en hexadécimal)**
+> **En 8 bits signé (complément à deux), quelle est la représentation de 87? et de -87? (en binaire et en hexadécimal)**  
+>
 > 87/2 = 43.5 -> R -> 0.5*2 = 1  
 > 43/2 = 21.5 -> R -> 0.5*2 = 1  
 > 21/2 = 10.5 -> R -> 0.5*2 = 1  
@@ -211,10 +212,11 @@
 > ---------------
 > 0b10101001 = -87
 > 
-> 0b1001 = 0x9
-> 0b1010 = 0xA
-> Donc : 0xA9
-> **Mêmes questions en 128 bits signé**
+> 0b1001 = 0x9  
+> 0b1010 = 0xA  
+> Donc : 0xA9  
+> 
+> **Mêmes questions en 128 bits signé**  
 > En 128 bits ?? C'est beaucoup trop de bits à écrire. Probablement une erreur !?
 
 ### Exercice 5
