@@ -246,7 +246,7 @@
 > |0|0|0|0|0|1|  0|  1|  0| 0| 1| 0|0|0|1|0|
 > |:-:|:-:|:-:|:-:|:-:|:------------:|:---:|:---:|:---:|:--:|:--:|:--:|:-:|:-:|:-------:|:-:|
 > |         32768|16384 |8192|4096|2048|1024|512|256|128|64|32|16| 8 | 4 | 2 | 1 |
-> |2<sup>15</sup>|2<sup>14</sup>|2<sup>13</sup>|2<sup>12</sup>|2<sup>11</sup>|2<sup>10</sup>|2<sup>9</sup>|2<sup>8</sup>|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
+> |2<sup>15</sup>|2<sup>14</sup>|2<sup>13</sup>|2<sup>12</sup>|2<sup>11</sup>|2<sup>10</sup>|2<sup>9</sup>|2<sup>8</sup>|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|    
 > Donc nous devons additionner les cases avec des 1    
 > Donc : 2<sup>10</sup>+2<sup>8</sup>+2<sup>5</sup>+2<sup>1</sup> = 1024+256+32+2 = 1314    
 > Il ne faut pas le oublier de le mettre en négatif : 1314*-1 = -1314
