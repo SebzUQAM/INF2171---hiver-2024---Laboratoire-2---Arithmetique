@@ -219,3 +219,31 @@
 
 ### Exercice 5
 > **Quels nombres 16 bits signés sont représentés par 0x4000 et 0xFADE?**
+> Pour 0x4000    
+> 0x0 = 0000<sub>2</sub> en 4 bits    
+> Donc on a pour l'instant : xxxx.0000.0000.0000<sub>2</sub>    
+> Et si on regarde la corespondance bit en hexa 4 = 0100<sub>2</sub>  
+> Donc nous avons pour l'instant 0100.0000.0000.0000<sub>2</sub>  
+> Puisque le premies bit est 0 le nombre est positif    
+> Puisque nous avons seulement un 1, nous pouvons trouver    
+> la réponse avec une simple puissance. Le 1 est à la position    
+> 15 et puisque la position 1 égale à 2<sup>0</sup> nous devons
+> faire 15-1 pour trouver la puissance.    
+> Donc nous avons : 2<sup>14</sup> = 16384    
+>     
+> Pour 0xFADE    
+> 0xF = 1111<sub>2</sub>    
+> 0xA = 1010<sub>2</sub>    
+> 0xD = 1101<sub>2</sub>    
+> 0xE = 1110<sub>2</sub>    
+> Donc nous avons : 1111.1010.1101.1110<sub>2</sub>    
+> Puisque le bit de plus haut niveau est 1 le nombre est négatif    
+> Alors : Nous inversons les bits ou en d'autre mot nous faisons 0xFFFF - 0xFADE    
+> Donc : 0000.0101.0010.0001<sub>2</sub>     
+> Puisque 0xFFFF = -1 et non 0 nous devons ajouter +1 à notre nombre modifié
+> Donc : 0000.0101.0010.0001<sub>2</sub>+1<sub>2</sub> = 0000.0101.0010.0010<sub>2</sub>    
+> À cette étape vous n'avez qu'à mettre le nombre en base 10, sans oublier de le mettre négatif.    
+> 0|0|0|0|0|1|  0|  1|  0| 0| 1| 0|0|0|1|0|
+> |:----:|:---:|:---:|:---:|:--:|:--:|:--:|:-:|:-:|:-------:|:-:|
+> |32768|16384|8192|4096|2048|1024|512|256|128|64|32|16| 8 | 4 | 2 | 1 |
+> |2<sup>15</sup>|2<sup>14</sup>|2<sup>13</sup>|2<sup>12</sup>|2<sup>11</sup>|2<sup>10</sup>|2<sup>9</sup>|2<sup>8</sup>|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
